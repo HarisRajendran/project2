@@ -1,5 +1,8 @@
 name: MyFirstWorkflow
-on: workflow_dispatch
+on:
+    workflow_dispatch:
+      branches:
+        - master
 jobs: 
   test:
     runs-on: ubuntu-latest
